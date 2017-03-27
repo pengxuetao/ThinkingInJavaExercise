@@ -12,10 +12,8 @@ public class CoinFlippingDemo {
 		//扔硬币的次数
 		int time = 100;
 		
-		//连续扔硬币
-		for (int i = 0; i < time; i++) {
-			CoinFlipping.throwCoin();
-		}		
+		//扔硬币
+		CoinFlipping.throwCoin(time);		
 	}
 
 }
